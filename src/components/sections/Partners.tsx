@@ -7,16 +7,13 @@ const Partners = () => {
   const originalRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (originalRef.current) {
-      let original = originalRef.current;
+      const original = originalRef.current;
       const trackWrapper = () => {
-        let originalWidth = original.scrollWidth;
-        let wrapperWidth = original.offsetWidth;
+        const originalWidth = original.scrollWidth;
         document.documentElement.style.setProperty(
           "--original-width",
           String("-" + originalWidth + "px")
         );
-        console.log(wrapperWidth);
-        console.log(originalWidth);
       };
 
       const observer = new ResizeObserver(() => trackWrapper());
