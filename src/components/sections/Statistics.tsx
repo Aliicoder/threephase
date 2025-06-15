@@ -1,6 +1,7 @@
+"use client";
 import clsx from "clsx";
 import Image from "next/image";
-
+import CountUp from "react-countup";
 const Statistics = () => {
   return (
     <section className="bg-[#BACA5B]">
@@ -18,28 +19,32 @@ const Statistics = () => {
           className="absolute bottom-0 right-0"
         />
         <div>
-          <h1 className="text-3xl">
-            5<span className="ml-1 text-xl">+</span>
+          <h1 className={clsx("text-3xl", "max-md:text-xl")}>
+            <CountUp end={5} duration={3} />{" "}
+            <span className={clsx("ml-1 text-xl", "max-md:text-lg")}>+</span>
           </h1>
-          <p className="text-xl">Experience</p>
+          <p className={clsx("text-xl", "max-md:text-sm")}>Experience</p>
         </div>
         <div>
-          <h1 className="text-3xl">
-            12<span className="ml-1 text-xl">+</span>
+          <h1 className={clsx("text-3xl", "max-md:text-xl")}>
+            <CountUp end={12} duration={3} />{" "}
+            <span className={clsx("ml-1 text-xl", "max-md:text-lg")}>+</span>
           </h1>
-          <p className="text-xl">Total Clients</p>
+          <p className={clsx("text-xl", "max-md:text-sm")}>Total Clients</p>
         </div>
         <div>
-          <h1 className="text-3xl">
-            67<span className="ml-1 text-xl">+</span>
+          <h1 className={clsx("text-3xl", "max-md:text-xl")}>
+            <CountUp end={67} duration={3} />{" "}
+            <span className={clsx("ml-1 text-xl", "max-md:text-lg")}>+</span>
           </h1>
-          <p className="text-xl">Total Visits</p>
+          <p className={clsx("text-xl", "max-md:text-sm")}>Total Visits</p>
         </div>
         <div>
-          <h1 className="text-3xl">
-            37<span className="ml-1 text-xl">+</span>
+          <h1 className={clsx("text-3xl", "max-md:text-xl")}>
+            <CountUp end={37} duration={3} />{" "}
+            <span className={clsx("ml-1 text-xl", "max-md:text-lg")}>+</span>
           </h1>
-          <p className="text-xl">Total Projects</p>
+          <p className={clsx("text-xl", "max-md:text-sm")}>Total Projects</p>
         </div>
       </div>
     </section>

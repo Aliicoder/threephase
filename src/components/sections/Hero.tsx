@@ -4,14 +4,14 @@ import { FaArrowRight } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section
-      className="font-cairo"
+      className="font-cairo max-md:!bg-[url('/imgs/hero-sm-bg.jpg')]"
       style={{
         backgroundImage: "url('/imgs/hero-lg-bg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="mx-auto p-[40px] container flex flex-col justify-between h-svh ">
+      <div className="mx-auto py-[30px] px-[20px] container flex flex-col justify-between h-svh ">
         <div className="flex justify-center items-center">
           <Image
             className="max-md:w-[125px] max-md:h-[37px] "
@@ -46,11 +46,23 @@ const Hero = () => {
             support, and years of experien
           </p>
           <div className="flex flex-wrap gap-[20px]">
-            <button className="px-[30px] py-[12px] font-bold bg-[#0000C4] text-white">
+            <button
+              className={clsx(
+                "px-[30px] py-[12px] font-bold bg-[#0000C4] text-white",
+                "max-md:text-sm"
+              )}
+            >
               Contact Us
             </button>
             <button className="flex items-center font-bold text-white ">
-              <h1 className="px-[30px] py-[12px] bg-[#0000C4]">عربي</h1>
+              <h1
+                className={clsx(
+                  "px-[30px] py-[12px] bg-[#0000C4]",
+                  "max-md:text-sm"
+                )}
+              >
+                عربي
+              </h1>
               <div className="flex items-center justify-center px-[10px] size-full bg-[#BACA5B]">
                 <FaArrowRight />
               </div>

@@ -28,7 +28,7 @@ const Partners = () => {
     <section className="font-cairo">
       <div
         className={clsx(
-          "mx-auto space-y-[90px] py-[60px] px-[20px] container font-bold",
+          "mx-auto space-y-[90px] py-[30px] px-[20px] container font-bold",
           "max-md:py-[30px]"
         )}
       >

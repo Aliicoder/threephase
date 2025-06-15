@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <section className="font-cairo">
       <div className="mx-auto py-[30px] px-[20px] container font-bold ">
-        <div className="gap-[10px] flex items-center ">
+        <div className="gap-[10px] flex items-center  ">
           <Image
             src="/tp-colorful-asset.png"
             className="max-md:w-[24px] max-md:h-[19px]"
@@ -12,7 +12,7 @@ const Testimonials = () => {
             width={40}
             height={32}
           />
-          <h1>Testimonials</h1>
+          <h1 className="text-4xl max-md:text-xl">Testimonials</h1>
         </div>
       </div>
     </section>

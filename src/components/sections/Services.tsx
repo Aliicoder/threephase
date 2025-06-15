@@ -17,27 +17,64 @@ const Services = () => {
         </div>
         <div className={clsx("flex ", "max-md:flex-col max-md:gap-[90px]")}>
           <div className="basis-4/12 flex flex-col items-center">
-            <Image width={58} height={52} src="/services/1.png" alt="" />
-            <h1 className="pt-[20px] pb-[16px] text-3xl">Generator Rental</h1>
-            <p className="max-w-[300px] text-center">
+            <Image
+              width={58}
+              height={52}
+              src="/services/1.png"
+              alt=""
+              className="max-md:w-[45px] max-md:h-[41px]"
+            />
+            <h1
+              className={clsx(
+                "pt-[20px] pb-[16px] text-3xl text-center",
+                "max-md:text-2xl"
+              )}
+            >
+              Generator Rental
+            </h1>
+            <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               We provide you with a power generator and a trained operator under
               flexible contracts
             </p>
           </div>
           <div className="basis-4/12 flex flex-col items-center">
-            <Image width={58} height={58} src="/services/2.png" alt="" />
-            <h1 className="pt-[20px] pb-[16px] text-3xl">
+            <Image
+              width={58}
+              height={58}
+              src="/services/2.png"
+              alt=""
+              className="max-md:w-[45px] max-md:h-[45px]"
+            />
+            <h1
+              className={clsx(
+                "pt-[20px] pb-[16px] text-3xl text-center",
+                "max-md:text-2xl"
+              )}
+            >
               Emergency Solutions
             </h1>
-            <p className="max-w-[300px] text-center">
+            <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               We provide you with a power generator and a trained operator under
               flexible contracts
             </p>
           </div>
           <div className="basis-4/12 flex flex-col items-center">
-            <Image width={58} height={56} src="/services/3.png" alt="" />
-            <h1 className="pt-[20px] pb-[16px] text-3xl">Generator Rental</h1>
-            <p className="max-w-[300px] text-center">
+            <Image
+              width={58}
+              height={56}
+              src="/services/3.png"
+              alt=""
+              className="max-md:w-[45px] max-md:h-[36px]"
+            />
+            <h1
+              className={clsx(
+                "pt-[20px] pb-[16px] text-3xl text-center",
+                "max-md:text-2xl"
+              )}
+            >
+              Generator Rental
+            </h1>
+            <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               We provide you with a power generator and a trained operator under
               flexible contracts
             </p>
