@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
             id="reason-1"
             className={clsx(
               "flex px-[30px] items-center justify-between",
-              "px-[0px] max-md:flex-col-reverse max-md:gap-[30px]"
+              "max-md:px-[0px] max-md:flex-col-reverse max-md:gap-[30px]"
             )}
           >
             <div className={clsx("relative aspect-[1/1] h-full")}>
@@ -72,7 +72,7 @@ const WhyChooseUs = () => {
             id="reason-2"
             className={clsx(
               "flex px-[30px] items-center justify-between",
-              "px-[0px] max-md:flex-col max-md:gap-[30px]"
+              "max-md:px-[0px] max-md:flex-col max-md:gap-[30px]"
             )}
           >
             <div
@@ -121,7 +121,7 @@ const WhyChooseUs = () => {
             id="reason-3"
             className={clsx(
               "flex px-[30px] items-center justify-between",
-              "px-[0px] max-md:flex-col-reverse max-md:gap-[30px]"
+              "max-md:px-[0px] max-md:flex-col-reverse max-md:gap-[30px]"
             )}
           >
             <div className={clsx("relative aspect-[1/1] h-full")}>
