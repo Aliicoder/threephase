@@ -9,7 +9,7 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Hero />
       <Statistics />
       <Partners />
