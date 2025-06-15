@@ -48,19 +48,14 @@ const Hero = () => {
           <div className="flex flex-wrap gap-[20px]">
             <button
               className={clsx(
-                "px-[30px] py-[12px] font-bold bg-[#0000C4] text-white",
+                "px-6 py-2 font-bold bg-[#0000C4] text-white",
                 "max-md:text-sm"
               )}
             >
               Contact Us
             </button>
             <button className="flex items-center font-bold text-white ">
-              <h1
-                className={clsx(
-                  "px-[30px] py-[12px] bg-[#0000C4]",
-                  "max-md:text-sm"
-                )}
-              >
+              <h1 className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
                 عربي
               </h1>
               <div className="flex items-center justify-center px-[10px] size-full bg-[#BACA5B]">
