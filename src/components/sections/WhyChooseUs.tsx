@@ -160,7 +160,7 @@ const WhyChooseUs = () => {
                 </h1>
               </div>
               <p className="max-w-[450px]">
-                We're always by your side. Our technical support team is
+                We&apos;re always by your side. Our technical support team is
                 available 24/7 to respond to any emergency — whether by phone or
                 through our on-site field teams.
               </p>
