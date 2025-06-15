@@ -24,7 +24,7 @@ const Hero = () => {
         <div
           className={clsx(
             "gap-[30px] mb-[100px] flex flex-col ",
-            "max-md:mb-[50px]"
+            "max-md:mb-[0px]"
           )}
         >
           <h1

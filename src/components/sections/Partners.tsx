@@ -81,7 +81,7 @@ const Partners = () => {
                 right: `var(--original-width)`,
                 top: 0,
               }}
-              className="absolute flex w-full h-full "
+              className="absolute bg-[#BACA5B] flex w-full h-full "
             >
               <Image
                 className="p-8 flex-1"
