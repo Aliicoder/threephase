@@ -7,10 +7,19 @@ import Services from "@/components/sections/Services";
 import Statistics from "@/components/sections/Statistics";
 import Testimonials from "@/components/sections/Testimonials";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
-
+import clsx from "clsx";
+import Image from "next/image";
 const Home = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="relative overflow-hidden">
+      <div
+        className={clsx(
+          "hidden p-4 z-50 left-0 bottom-0 cursor-pointer",
+          "max-md:fixed max-md:block"
+        )}
+      >
+        <Image src="/whatsapp.svg" alt="" width={40} height={40} />
+      </div>
       <Hero />
       <Statistics />
       <Partners />
