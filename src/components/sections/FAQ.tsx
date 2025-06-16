@@ -22,6 +22,7 @@ const FAQ = () => {
         <div className="pt-[10px] flex flex-col">
           {Questions.map((item, index) => (
             <div
+              key={index}
               className={clsx(
                 index != Questions.length - 1 && "border-b border-[#BACA5B]"
               )}
