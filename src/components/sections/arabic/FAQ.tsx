@@ -2,7 +2,7 @@
 import clsx from "clsx";
 import { Plus, X } from "lucide-react";
 import Image from "next/image";
-import { en as Questions } from "@/constants/Questions";
+import { ar as Questions } from "@/constants/Questions";
 import { useState } from "react";
 const FAQ = () => {
   const [active, setActive] = useState(-1);
@@ -17,7 +17,7 @@ const FAQ = () => {
             width={40}
             height={32}
           />
-          <h1 className="text-4xl max-md:text-xl">FAQ</h1>
+          <h1 className="text-4xl max-md:text-xl">الأسئلة الشائعة</h1>
         </div>
         <div className="pt-[10px] flex flex-col">
           {Questions.map((item, index) => (

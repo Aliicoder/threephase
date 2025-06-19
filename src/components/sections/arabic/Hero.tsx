@@ -24,17 +24,17 @@ const Hero = () => {
         </div>
         <div
           className={clsx(
-            "gap-[30px] mb-[100px] flex flex-col ",
+            "gap-[30px] mb-[100px] flex flex-col  ",
             "max-md:mb-[0px]"
           )}
         >
           <h1
             className={clsx(
-              "w-[770px] text-6xl font-bold text-white",
+              "w-[770px] text-6xl font-bold text-white ",
               "max-md:w-[280px] max-md:text-3xl"
             )}
           >
-            To keep your business running without interruption{" "}
+            لتستمر أعمالك بلا توقف
           </h1>
           <p
             className={clsx(
@@ -42,9 +42,8 @@ const Hero = () => {
               "max-md:w-[280px] max-md:text-xl"
             )}
           >
-            We provide you with the latest power generators and comprehensive
-            engineering services, offering high reliability, instant technical
-            support, and years of experien
+            نقدّم لك أحدث مولدات الكهرباء وخدمات هندسية متكاملة، بموثوقية عالية،
+            دعم فني فوري، وخبرة تمتد لسنوات .
           </p>
           <div className="flex flex-wrap gap-[20px]">
             <button
@@ -53,17 +52,14 @@ const Hero = () => {
                 "max-md:text-sm"
               )}
             >
-              Contact Us
+              تواصل معنا{" "}
             </button>
-            <Link
-              href="/arabic"
-              className="flex items-center font-bold text-white "
-            >
+            <Link href="/" className="flex items-center font-bold text-white ">
               <h1 className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
-                عربي
+                English
               </h1>
               <div className="flex items-center justify-center px-[10px] size-full bg-[#BACA5B]">
-                <FaArrowRight />
+                <FaArrowRight className="rotate-180  " />
               </div>
             </Link>
           </div>

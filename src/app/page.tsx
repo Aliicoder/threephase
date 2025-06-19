@@ -5,7 +5,6 @@ import OnSite from "@/components/sections/OnSite";
 import Partners from "@/components/sections/Partners";
 import Services from "@/components/sections/Services";
 import Statistics from "@/components/sections/Statistics";
-import Testimonials from "@/components/sections/Testimonials";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import clsx from "clsx";
 import Image from "next/image";
@@ -26,7 +25,6 @@ const Home = () => {
       <Services />
       <OnSite />
       <WhyChooseUs />
-      <Testimonials />
       <FAQ />
       <Footer />
     </div>
