@@ -1,3 +1,4 @@
+import AnimatedText from "@/components/shared/AnimatedText";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,33 +29,44 @@ const Hero = () => {
             "max-md:mb-[0px]"
           )}
         >
-          <h1
+          <div
             className={clsx(
-              "w-[770px] text-6xl font-bold text-white ",
+              "w-[770px] text-6xl font-bold text-balance text-white",
               "max-md:w-[280px] max-md:text-3xl"
             )}
           >
-            لتستمر أعمالك بلا توقف
-          </h1>
-          <p
+            <AnimatedText text="لتستمر أعمالك بلا توقف" />
+          </div>
+          <div
             className={clsx(
-              "w-[770px] text-xl font-bold leading-[1.2] line-clamp-3 tracking-wide text-white",
+              "w-[770px] text-xl text-balance font-bold leading-[1.2] line-clamp-3 tracking-wide text-white",
               "max-md:w-[280px] max-md:text-xl"
             )}
           >
-            نقدّم لك أحدث مولدات الكهرباء وخدمات هندسية متكاملة، بموثوقية عالية،
-            دعم فني فوري، وخبرة تمتد لسنوات .
-          </p>
+            <AnimatedText
+              text="نقدّم لك أحدث مولدات الكهرباء وخدمات هندسية متكاملة، بموثوقية عالية،
+            دعم فني فوري، وخبرة تمتد لسنوات ."
+              delay={0.5}
+            />
+          </div>
           <div className="flex flex-wrap gap-[20px]">
-            <button
+            <Link
+              href="/arabic"
               className={clsx(
-                "px-6 py-2 font-bold bg-[#0000C4] text-white",
-                "max-md:text-sm"
+                "px-6 py-2 flex items-center font-bold bg-[#0000C4] text-white ",
+                "max-md:text-sm",
+                "hover:scale-95 transition-all duration-300"
               )}
             >
               تواصل معنا{" "}
-            </button>
-            <Link href="/" className="flex items-center font-bold text-white ">
+            </Link>
+            <Link
+              href="/"
+              className={clsx(
+                "flex items-center font-bold text-white ",
+                "hover:scale-95 transition-all duration-300"
+              )}
+            >
               <h1 className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
                 English
               </h1>
