@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
 import clsx from "clsx";
 import AnimatedSvg from "../shared/AnimatedSvg";
+import CountUp from "react-countup";
+import Counter from "../shared/Counter";
 
 const WhyChooseUs = () => {
   return (
@@ -87,7 +90,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    01
+                    <Counter duration={3} count={1} />
                   </div>
                   Unmatched <br /> quality
                 </h1>
@@ -119,7 +122,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    02
+                    <Counter duration={3} count={2} />
                   </div>
                   Years of Proven <br /> Experience
                 </h1>
@@ -214,7 +217,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    03
+                    <Counter duration={3} count={3} />
                   </div>
                   24/7 Technical
                   <br /> Support
