@@ -5,7 +5,6 @@ import { useEffect, useRef } from "react";
 import AnimatedText from "@/components/shared/AnimatedText";
 import AnimatedSvg from "@/components/shared/AnimatedSvg";
 import { Partners as PartnersData } from "@/constants/Partners";
-import SliderPlaceholder from "@/components/shared/SliderPlaceholder";
 
 const Partners = () => {
   const originalRef = useRef<HTMLDivElement>(null);

@@ -1,7 +1,6 @@
 "use client";
 import clsx from "clsx";
 import { Plus, X } from "lucide-react";
-import Image from "next/image";
 import { en as Questions } from "@/constants/Questions";
 import { useState } from "react";
 import AnimatedSvg from "../shared/AnimatedSvg";
