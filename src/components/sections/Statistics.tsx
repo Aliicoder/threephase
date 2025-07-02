@@ -1,7 +1,5 @@
 "use client";
 import clsx from "clsx";
-import Image from "next/image";
-import CountUp from "react-countup";
 import Stat from "../shared/Stat";
 import AnimatedSvg from "../shared/AnimatedSvg";
 const Statistics = () => {

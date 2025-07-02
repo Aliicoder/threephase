@@ -2,7 +2,6 @@
 import Image from "next/image";
 import clsx from "clsx";
 import AnimatedSvg from "../shared/AnimatedSvg";
-import CountUp from "react-countup";
 import Counter from "../shared/Counter";
 
 const WhyChooseUs = () => {
