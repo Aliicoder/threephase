@@ -2,7 +2,6 @@
 import Image from "next/image";
 import clsx from "clsx";
 import { useEffect, useRef } from "react";
-import AnimatedText from "@/components/shared/AnimatedText";
 import AnimatedSvg from "@/components/shared/AnimatedSvg";
 import { Partners as PartnersData } from "@/constants/Partners";
 
