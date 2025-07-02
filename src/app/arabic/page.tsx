@@ -14,7 +14,7 @@ const Home = () => {
     <div className="relative overflow-hidden" dir="rtl">
       <div
         className={clsx(
-          "hidden p-4 z-50 right-0 bottom-0 cursor-pointer",
+          "hidden p-4 z-50 left-0 bottom-0 cursor-pointer",
           "max-md:fixed max-md:block"
         )}
       >

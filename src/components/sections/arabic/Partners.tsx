@@ -58,9 +58,7 @@ const Partners = () => {
               </>
             }
           />
-          <div className="text-4xl max-md:text-xl">
-            <AnimatedText text="شركاؤنا" />
-          </div>
+          <div className="text-4xl max-md:text-xl">شركاؤنا</div>
         </div>
         <div
           className="slider mb-[20px]"
