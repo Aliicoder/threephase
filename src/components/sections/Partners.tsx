@@ -2,6 +2,8 @@
 import Image from "next/image";
 import clsx from "clsx";
 import { useEffect, useRef } from "react";
+import { Partners as PartnersData } from "@/constants/Partners";
+import AnimatedSvg from "../shared/AnimatedSvg";
 
 const Partners = () => {
   const originalRef = useRef<HTMLDivElement>(null);
@@ -33,85 +35,54 @@ const Partners = () => {
         )}
       >
         <div className="gap-[10px] flex items-center  ">
-          <Image
-            src="/tp-colorful-asset.png"
+          <AnimatedSvg
             className="max-md:w-[24px] max-md:h-[19px]"
-            alt=""
             width={40}
             height={32}
+            viewBox="0 0 40 32"
+            svgContent={
+              <>
+                <path
+                  d="M30.5559 31.6813L39.9997 0.318848H33.2763L23.8325 31.6813H30.5559Z"
+                  fill="#0000C4"
+                />
+                <path
+                  d="M18.6415 31.6813L28.0861 0.318848H21.3628L11.9189 31.6813H18.6415Z"
+                  fill="#FEEA4D"
+                />
+                <path
+                  d="M6.72774 31.6813L16.1716 0.318848H9.449L0.00439453 31.6813H6.72774Z"
+                  fill="#FF220F"
+                />
+              </>
+            }
           />
           <h1 className="text-4xl max-md:text-xl">Our Partners</h1>
         </div>
-        <div className="poninter-events-none overflow-hidden">
-          <div
-            ref={originalRef}
-            id="original"
-            className="relative flex scrollX"
-          >
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <div
-              style={{
-                right: `var(--original-width)`,
-                top: 0,
-              }}
-              className="absolute bg-[#BACA5B] flex w-full h-full "
-            >
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-            </div>
+        <div
+          className="slider mb-[20px]"
+          style={
+            {
+              "--width": "180px",
+              "--height": "100px",
+              "--quntity": PartnersData.length,
+            } as React.CSSProperties
+          }
+        >
+          <div className="list">
+            {PartnersData.map(({ image, width, height }, index) => (
+              <div
+                style={
+                  {
+                    "--index": index,
+                  } as React.CSSProperties
+                }
+                key={index}
+                className="item"
+              >
+                <Image src={image} alt="" width={width} height={height} />
+              </div>
+            ))}
           </div>
         </div>
       </div>

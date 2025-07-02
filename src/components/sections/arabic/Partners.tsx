@@ -4,6 +4,8 @@ import clsx from "clsx";
 import { useEffect, useRef } from "react";
 import AnimatedText from "@/components/shared/AnimatedText";
 import AnimatedSvg from "@/components/shared/AnimatedSvg";
+import { Partners as PartnersData } from "@/constants/Partners";
+import SliderPlaceholder from "@/components/shared/SliderPlaceholder";
 
 const Partners = () => {
   const originalRef = useRef<HTMLDivElement>(null);
@@ -61,76 +63,30 @@ const Partners = () => {
             <AnimatedText text="شركاؤنا" />
           </div>
         </div>
-        <div className="poninter-events-none overflow-hidden">
-          <div
-            ref={originalRef}
-            id="original"
-            className="relative flex scrollX"
-          >
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <Image
-              className="p-8 flex-1"
-              src="/partners/alinma.png"
-              alt=""
-              width={180}
-              height={36}
-            />
-            <div
-              style={{
-                right: `var(--original-width)`,
-                top: 0,
-              }}
-              className="absolute bg-[#BACA5B] flex w-full h-full "
-            >
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-              <Image
-                className="p-8 flex-1"
-                src="/partners/alinma.png"
-                alt=""
-                width={180}
-                height={36}
-              />
-            </div>
+        <div
+          className="slider mb-[20px]"
+          style={
+            {
+              "--width": "180px",
+              "--height": "100px",
+              "--quntity": PartnersData.length,
+            } as React.CSSProperties
+          }
+        >
+          <div className="list">
+            {PartnersData.map(({ image, width, height }, index) => (
+              <div
+                style={
+                  {
+                    "--index": index,
+                  } as React.CSSProperties
+                }
+                key={index}
+                className="item"
+              >
+                <Image src={image} alt="" width={width} height={height} />
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import clsx from "clsx";
+import AnimatedSvg from "@/components/shared/AnimatedSvg";
 
 const WhyChooseUs = () => {
   return (
@@ -10,12 +11,27 @@ const WhyChooseUs = () => {
         )}
       >
         <div className="gap-[10px] flex items-center  ">
-          <Image
-            src="/tp-colorful-asset.png"
+          <AnimatedSvg
             className="max-md:w-[24px] max-md:h-[19px]"
-            alt=""
             width={40}
             height={32}
+            viewBox="0 0 40 32"
+            svgContent={
+              <>
+                <path
+                  d="M30.5559 31.6813L39.9997 0.318848H33.2763L23.8325 31.6813H30.5559Z"
+                  fill="#0000C4"
+                />
+                <path
+                  d="M18.6415 31.6813L28.0861 0.318848H21.3628L11.9189 31.6813H18.6415Z"
+                  fill="#FEEA4D"
+                />
+                <path
+                  d="M6.72774 31.6813L16.1716 0.318848H9.449L0.00439453 31.6813H6.72774Z"
+                  fill="#FF220F"
+                />
+              </>
+            }
           />
           <h1 className="text-4xl max-md:text-xl">لماذا تختارنا؟ </h1>
         </div>
@@ -28,12 +44,27 @@ const WhyChooseUs = () => {
             )}
           >
             <div className={clsx("relative aspect-[1/1] h-full")}>
-              <Image
-                src="/tp-colorful-asset.png"
+              <AnimatedSvg
                 className="max-md:w-[24px] max-md:h-[19px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2"
-                alt=""
                 width={40}
                 height={32}
+                viewBox="0 0 40 32"
+                svgContent={
+                  <>
+                    <path
+                      d="M30.5559 31.6813L39.9997 0.318848H33.2763L23.8325 31.6813H30.5559Z"
+                      fill="#0000C4"
+                    />
+                    <path
+                      d="M18.6415 31.6813L28.0861 0.318848H21.3628L11.9189 31.6813H18.6415Z"
+                      fill="#FEEA4D"
+                    />
+                    <path
+                      d="M6.72774 31.6813L16.1716 0.318848H9.449L0.00439453 31.6813H6.72774Z"
+                      fill="#FF220F"
+                    />
+                  </>
+                }
               />
               <Image
                 src="/whyChooseUs/1.jpg"
@@ -53,7 +84,7 @@ const WhyChooseUs = () => {
                       `absolute z-[-1]
                   top-1/2 right-0 translate-x-2/3 
                   -translate-y-1/2  text-[123px] text-[#BACA5B]`,
-                      "max-md:static max-md:translate-y-0 max-md:text-[63px]"
+                      "max-md:static max-md:translate-x-1/3 max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
                     01
@@ -85,7 +116,7 @@ const WhyChooseUs = () => {
                       `absolute z-[-1]
                   top-1/2 right-0 translate-x-2/3 
                   -translate-y-1/2  text-[123px] text-[#BACA5B]`,
-                      "max-md:static max-md:translate-y-0 max-md:text-[63px]"
+                      "max-md:static max-md:translate-x-1/6 max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
                     02
@@ -101,12 +132,27 @@ const WhyChooseUs = () => {
               </p>
             </div>
             <div className={clsx("relative aspect-[1/1] h-full")}>
-              <Image
-                src="/tp-colorful-asset.png"
+              <AnimatedSvg
                 className="max-md:w-[24px] max-md:h-[19px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2"
-                alt=""
                 width={40}
                 height={32}
+                viewBox="0 0 40 32"
+                svgContent={
+                  <>
+                    <path
+                      d="M30.5559 31.6813L39.9997 0.318848H33.2763L23.8325 31.6813H30.5559Z"
+                      fill="#0000C4"
+                    />
+                    <path
+                      d="M18.6415 31.6813L28.0861 0.318848H21.3628L11.9189 31.6813H18.6415Z"
+                      fill="#FEEA4D"
+                    />
+                    <path
+                      d="M6.72774 31.6813L16.1716 0.318848H9.449L0.00439453 31.6813H6.72774Z"
+                      fill="#FF220F"
+                    />
+                  </>
+                }
               />
               <Image
                 src="/whyChooseUs/2.jpg"
@@ -125,12 +171,27 @@ const WhyChooseUs = () => {
             )}
           >
             <div className={clsx("relative aspect-[1/1] h-full")}>
-              <Image
-                src="/tp-colorful-asset.png"
+              <AnimatedSvg
                 className="max-md:w-[24px] max-md:h-[19px] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2"
-                alt=""
                 width={40}
                 height={32}
+                viewBox="0 0 40 32"
+                svgContent={
+                  <>
+                    <path
+                      d="M30.5559 31.6813L39.9997 0.318848H33.2763L23.8325 31.6813H30.5559Z"
+                      fill="#0000C4"
+                    />
+                    <path
+                      d="M18.6415 31.6813L28.0861 0.318848H21.3628L11.9189 31.6813H18.6415Z"
+                      fill="#FEEA4D"
+                    />
+                    <path
+                      d="M6.72774 31.6813L16.1716 0.318848H9.449L0.00439453 31.6813H6.72774Z"
+                      fill="#FF220F"
+                    />
+                  </>
+                }
               />
               <Image
                 src="/whyChooseUs/3.jpg"
@@ -150,7 +211,7 @@ const WhyChooseUs = () => {
                       `absolute z-[-1]
                   top-1/2 right-0 translate-x-2/3 
                   -translate-y-1/2  text-[123px] text-[#BACA5B]`,
-                      "max-md:static max-md:translate-y-0 max-md:text-[63px]"
+                      "max-md:static max-md:translate-x-1/12 max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
                     03
