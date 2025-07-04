@@ -130,7 +130,7 @@ const OnSite = () => {
             )}
           >
             <Image
-              src="/onsite/3.jpg"
+              src="/onsite/5.jpg"
               alt=""
               width={770}
               height={353}
@@ -144,7 +144,7 @@ const OnSite = () => {
             )}
           >
             <Image
-              src="/onsite/3.jpg"
+              src="/onsite/7.jpg"
               alt=""
               width={770}
               height={353}
