@@ -89,7 +89,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    <Counter duration={3} count={1} />
+                    <Counter duration={0} count={1} />
                   </div>
                   Unmatched <br /> quality
                 </h1>
@@ -121,7 +121,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    <Counter duration={3} count={2} />
+                    <Counter duration={0} count={2} />
                   </div>
                   Years of Proven <br /> Experience
                 </h1>
@@ -216,7 +216,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    <Counter duration={3} count={3} />
+                    <Counter duration={0} count={3} />
                   </div>
                   24/7 Technical
                   <br /> Support

@@ -88,7 +88,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-x-1/3 max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    <Counter duration={3} count={1} />
+                    <Counter duration={0} count={1} />
                   </div>
                   جودة لا <br /> تُضاهى
                 </h1>
@@ -120,7 +120,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-x-1/6 max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    <Counter duration={3} count={2} />
+                    <Counter duration={0} count={2} />
                   </div>
                   خبرة تمتد
                   <br /> لسنوات{" "}
@@ -215,7 +215,7 @@ const WhyChooseUs = () => {
                       "max-md:static max-md:translate-x-1/12 max-md:translate-y-0 max-md:text-[63px]"
                     )}
                   >
-                    <Counter duration={3} count={3} />
+                    <Counter duration={0} count={3} />
                   </div>
                   دعم فني على <br />
                   مدار الساعة
