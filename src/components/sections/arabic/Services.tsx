@@ -3,7 +3,6 @@ import RentalSvg from "@/components/services/RentalSvg";
 import { SolutionsSvg } from "@/components/services/SolutionsSvg";
 import AnimatedSvg from "@/components/shared/AnimatedSvg";
 import clsx from "clsx";
-import Image from "next/image";
 
 const Services = () => {
   return (
