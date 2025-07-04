@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
+import AnimatedSvg from "../shared/AnimatedSvg";
 const Footer = () => {
   return (
     <section className="font-cairo bg-[#BACA5B] text-white">
@@ -11,19 +12,27 @@ const Footer = () => {
           `max-md:flex-col`
         )}
       >
-        <Image
-          src="/tp-white-asset.png"
-          alt=""
+        <AnimatedSvg
           width={280}
           height={220}
+          viewBox="0 0 280 220"
           className="absolute bottom-0 left-0"
-        />
-        <Image
-          src="/tp-white-asset.png"
-          alt=""
-          width={280}
-          height={220}
-          className="absolute top-0 right-0"
+          svgContent={
+            <g opacity="0.1">
+              <path
+                d="M213.888 199.561L280 -20H232.933L166.821 199.561H213.888Z"
+                fill="white"
+              />
+              <path
+                d="M130.477 199.561L196.595 -20H149.528L83.416 199.561H130.477Z"
+                fill="white"
+              />
+              <path
+                d="M47.067 199.561L113.179 -20H66.1172L0 199.561H47.067Z"
+                fill="white"
+              />
+            </g>
+          }
         />
         <div
           className={clsx(

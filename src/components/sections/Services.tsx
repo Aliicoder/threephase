@@ -1,6 +1,8 @@
 import clsx from "clsx";
-import Image from "next/image";
 import AnimatedSvg from "../shared/AnimatedSvg";
+import MobieSvg from "../services/MobieSvg";
+import { SolutionsSvg } from "../services/SolutionsSvg";
+import RentalSvg from "../services/RentalSvg";
 
 const Services = () => {
   return (
@@ -33,34 +35,23 @@ const Services = () => {
         </div>
         <div className={clsx("flex ", "max-md:flex-col max-md:gap-[90px]")}>
           <div className="basis-4/12 flex flex-col items-center">
-            <Image
-              width={58}
-              height={52}
-              src="/services/1.png"
-              alt=""
-              className="max-md:w-[45px] max-md:h-[41px]"
-            />
+            <MobieSvg />
+
             <h1
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
                 "max-md:text-2xl"
               )}
             >
-              Generator Rental
+              Mobile Generators
             </h1>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
-              We provide you with a power generator and a trained operator under
-              flexible contracts
+              Generators that can be easily transported and operated at multiple
+              locations
             </p>
           </div>
           <div className="basis-4/12 flex flex-col items-center">
-            <Image
-              width={58}
-              height={58}
-              src="/services/2.png"
-              alt=""
-              className="max-md:w-[45px] max-md:h-[45px]"
-            />
+            <SolutionsSvg />
             <h1
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
@@ -70,18 +61,12 @@ const Services = () => {
               Emergency Solutions
             </h1>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
-              We provide you with a power generator and a trained operator under
-              flexible contracts
+              We serve you during unexpected power Response time: within 2–4
+              hours
             </p>
           </div>
           <div className="basis-4/12 flex flex-col items-center">
-            <Image
-              width={58}
-              height={56}
-              src="/services/3.png"
-              alt=""
-              className="max-md:w-[45px] max-md:h-[36px]"
-            />
+            <RentalSvg />
             <h1
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
