@@ -8,18 +8,20 @@ import OnSite from "@/components/sections/arabic/OnSite";
 import WhyChooseUs from "@/components/sections/arabic/WhyChooseUs";
 import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 
 const Home = () => {
   return (
     <div className="relative overflow-hidden bg-white" dir="rtl">
-      <div
+      <Link
+        href="https://wa.me/966553442515"
         className={clsx(
           "hidden p-4 z-50 left-0 bottom-0 cursor-pointer",
           "max-md:fixed max-md:block"
         )}
       >
         <Image src="/whatsapp.svg" alt="" width={40} height={40} />
-      </div>
+      </Link>
       <Hero />
       <Statistics />
       <Partners />

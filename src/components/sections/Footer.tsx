@@ -70,7 +70,7 @@ const Footer = () => {
             <div className="flex flex-col gap-[20px]">
               <div className="flex gap-4 items-center">
                 <Phone className="w-[20px] h-[20px]" />
-                <h1>+966 54 314 3105</h1>
+                <h1>+966 55 344 2515</h1>
               </div>
               <div className="flex gap-4 items-center">
                 <Mail className="w-[20px] h-[20px]" />
