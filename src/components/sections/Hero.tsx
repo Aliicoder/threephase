@@ -10,7 +10,6 @@ const Hero = () => {
         backgroundImage: "url('/imgs/hero-lg-bg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundAttachment: "fixed",
       }}
     >
       <div className="mx-auto py-[30px] px-[20px] container flex flex-col justify-between h-svh ">
