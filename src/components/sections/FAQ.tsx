@@ -7,7 +7,7 @@ import AnimatedSvg from "../shared/AnimatedSvg";
 const FAQ = () => {
   const [active, setActive] = useState(-1);
   return (
-    <section className="font-cairo">
+    <section className="relative z-10 font-cairo bg-white">
       <div className="mx-auto py-[30px] px-[20px] container font-bold ">
         <div className="gap-[10px] flex items-center  ">
           <AnimatedSvg

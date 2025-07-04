@@ -4,15 +4,16 @@ import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 const Hero = () => {
   return (
-    <section
-      className="font-cairo max-md:!bg-[url('/imgs/hero-sm-bg.jpg')]"
-      style={{
-        backgroundImage: "url('/imgs/hero-lg-bg.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      <div className="mx-auto py-[30px] px-[20px] container flex flex-col justify-between h-svh ">
+    <section className="relative font-cairo">
+      <div
+        className="fixed inset-0 z-0"
+        style={{
+          backgroundImage: "url('/imgs/hero-sm-2.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "30% center",
+        }}
+      />
+      <div className="relative z-10 mx-auto py-[30px] px-[20px] container flex flex-col justify-between h-svh ">
         <div className="flex justify-center items-center">
           <Image
             className="max-md:w-[125px] max-md:h-[37px] "
@@ -39,7 +40,7 @@ const Hero = () => {
           <p
             className={clsx(
               "w-[770px] text-xl font-bold leading-[1.2] line-clamp-3 tracking-wide text-white",
-              "max-md:w-[280px] max-md:text-xl"
+              "max-md:w-[280px] max-md:text-xl max-md:hidden"
             )}
           >
             We provide you with the latest power generators and comprehensive

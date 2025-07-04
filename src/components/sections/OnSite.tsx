@@ -43,7 +43,7 @@ const OnSite = () => {
     };
   }, []);
   return (
-    <section className="font-cairo">
+    <section className="relative z-10 font-cairo bg-white">
       <div className="mx-auto space-y-[30px] py-[30px] px-[20px] container font-bold ">
         <div className="gap-[10px] flex items-center  ">
           <AnimatedSvg

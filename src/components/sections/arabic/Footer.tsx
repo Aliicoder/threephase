@@ -45,9 +45,9 @@ const Footer = () => {
               <Image src="/threePhase.svg" alt="" width={200} height={58} />
             </div>
             <p className="text-xl max-w-[430px] max-md:hidden">
-              We provide you with the latest power generators and comprehensive
-              engineering services, offering high reliability, instant technical
-              support, and years of experience
+              نقدّم لك أحدث مولدات الكهرباء وخدمات هندسية متكاملة، بموثوقية
+              عالية، دعم فني فوري، وخبرة تمتد لسنوات في خدمة المصانع، المنشآت
+              الطبية، والمشاريع الكبرى.
             </p>
           </div>
           <div
@@ -62,7 +62,7 @@ const Footer = () => {
             <button
               className={clsx(
                 "px-6 py-2 font-bold w-fit bg-[#0000C4] text-white",
-                "max-md:text-sm"
+                "max-md:text-sm animate-pulse cursor-pointer"
               )}
             >
               تواصل معنا
@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
               <div className="flex gap-4 items-center">
                 <Mail className="w-[20px] h-[20px]" />
-                <h1>info@threephase.com</h1>
+                <h1>info@threephase.co</h1>
               </div>
               <div className="flex gap-4 items-center">
                 <MapPin className="w-[20px] h-[20px]" />

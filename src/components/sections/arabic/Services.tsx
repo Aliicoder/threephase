@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <section className="font-cairo">
+    <section className="relative z-10 font-cairo bg-white">
       <div className="mx-auto gap-[90px] py-[30px] px-[20px] container flex flex-col font-bold">
         <div className="gap-[10px] flex items-center  ">
           <AnimatedSvg

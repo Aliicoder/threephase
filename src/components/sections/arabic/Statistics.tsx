@@ -4,7 +4,7 @@ import AnimatedSvg from "@/components/shared/AnimatedSvg";
 
 const Statistics = () => {
   return (
-    <section className="bg-[#BACA5B]">
+    <section className="relative z-10 bg-[#BACA5B]">
       <div
         className={clsx(
           "relative container mx-auto p-[40px] gap-8 grid grid-cols-4 font-cairo font-bold text-white ",

@@ -27,7 +27,7 @@ const Partners = () => {
     }
   }, []);
   return (
-    <section className="font-cairo">
+    <section className="relative z-10 font-cairo bg-white">
       <div
         className={clsx(
           "mx-auto space-y-[90px] py-[30px] px-[20px] container font-bold",

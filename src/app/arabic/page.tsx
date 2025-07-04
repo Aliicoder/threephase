@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div className="relative overflow-hidden" dir="rtl">
+    <div className="relative overflow-hidden bg-white" dir="rtl">
       <div
         className={clsx(
           "hidden p-4 z-50 left-0 bottom-0 cursor-pointer",
