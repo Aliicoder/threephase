@@ -19,8 +19,8 @@ const Hero = () => {
             className="max-md:w-[125px] max-md:h-[37px] "
             width={200}
             height={58}
-            src="/logo.png"
-            alt=""
+            src="/logo.svg"
+            alt="threephase logo"
           />
         </div>
         <div

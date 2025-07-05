@@ -42,7 +42,12 @@ const Footer = () => {
         >
           <div className="flex flex-col gap-[20px]">
             <div className={clsx("flex", "max-md:justify-center")}>
-              <Image src="/threePhase.svg" alt="" width={200} height={58} />
+              <Image
+                src="/logo.svg"
+                alt="threephase logo"
+                width={200}
+                height={58}
+              />
             </div>
             <p className="text-xl max-w-[430px] max-md:hidden">
               We provide you with the latest power generators and comprehensive
