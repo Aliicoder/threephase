@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
 import AnimatedSvg from "@/components/shared/AnimatedSvg";
+import Link from "next/link";
 const Footer = () => {
   return (
     <section className="font-cairo bg-[#BACA5B] text-white">
@@ -64,14 +65,15 @@ const Footer = () => {
             <p className={clsx("text-xl max-w-[270px]", "max-md:text-center")}>
               هل ترغب في شراكة أو تعاون؟
             </p>
-            <button
+            <Link
+              href="mailto:contact@threephase.co"
               className={clsx(
                 "px-6 py-2 font-bold w-fit bg-[#0000C4] text-white",
                 "max-md:text-sm animate-pulse cursor-pointer"
               )}
             >
               تواصل معنا
-            </button>
+            </Link>
             <div className="flex flex-col gap-[20px]">
               <div className="flex gap-4 items-center">
                 <Phone className="w-[20px] h-[20px]" />
