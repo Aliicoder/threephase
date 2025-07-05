@@ -48,14 +48,15 @@ const Hero = () => {
             support, and years of experien
           </p>
           <div className="flex flex-wrap gap-[20px]">
-            <button
+            <Link
+              href="mailto:contact@threephase.co"
               className={clsx(
                 "px-6 py-2 font-bold bg-[#0000C4] text-white",
                 "max-md:text-sm"
               )}
             >
               Contact Us
-            </button>
+            </Link>
             <Link
               href="/arabic"
               className="flex items-center font-bold text-white "
