@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
           <div className="flex flex-wrap gap-[20px]">
             <Link
-              href="/arabic"
+              href="mailto:contact@threephase.co"
               className={clsx(
                 "px-6 py-2 flex items-center font-bold bg-[#0000C4] text-white ",
                 "max-md:text-sm",
@@ -63,7 +63,7 @@ const Hero = () => {
               تواصل معنا{" "}
             </Link>
             <Link
-              href="mailto:contact@threephase.co"
+              href="/"
               className={clsx(
                 "flex items-center font-bold text-white ",
                 "hover:scale-95 transition-all duration-300"
