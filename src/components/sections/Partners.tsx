@@ -60,6 +60,7 @@ const Partners = () => {
           <h1 className="text-4xl max-md:text-xl">Our Partners</h1>
         </div>
         <div
+          dir="rtl"
           className="slider mb-[20px]"
           style={
             {
