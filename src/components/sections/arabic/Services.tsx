@@ -70,7 +70,7 @@ const Services = () => {
               حلول للطوارئ
             </h1>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
-              نخدمك في أوقات انقطاع التيار المفاجئ استجابة خلال 2–4 ساعات
+              نخدمك في أوقات انقطاع التيار المفاجئ استجابة خلال 1–2 ساعات
             </p>
           </div>
           <div className="basis-4/12 flex flex-col items-center">

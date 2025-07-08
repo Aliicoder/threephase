@@ -89,7 +89,7 @@ const Services = () => {
               Emergency Solutions
             </h1>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
-              We serve you during unexpected power Response time: within 2–4
+              We serve you during unexpected power Response time: within 1–2
               hours
             </p>
           </div>
