@@ -1,4 +1,3 @@
-"use client";
 import clsx from "clsx";
 import Stat from "../shared/Stat";
 import AnimatedSvg from "../shared/AnimatedSvg";

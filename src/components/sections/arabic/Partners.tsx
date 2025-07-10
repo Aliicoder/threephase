@@ -1,31 +1,10 @@
 "use client";
 import Image from "next/image";
 import clsx from "clsx";
-import { useEffect, useRef } from "react";
 import AnimatedSvg from "@/components/shared/AnimatedSvg";
 import { Partners as PartnersData } from "@/constants/Partners";
 
 const Partners = () => {
-  const originalRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (originalRef.current) {
-      const original = originalRef.current;
-      const trackWrapper = () => {
-        const originalWidth = original.scrollWidth;
-        document.documentElement.style.setProperty(
-          "--original-width",
-          String("-" + originalWidth + "px")
-        );
-      };
-
-      const observer = new ResizeObserver(() => trackWrapper());
-      observer.observe(original);
-      return () => {
-        observer.unobserve(original);
-        observer.disconnect();
-      };
-    }
-  }, []);
   return (
     <section className="relative z-10 font-cairo bg-white">
       <div

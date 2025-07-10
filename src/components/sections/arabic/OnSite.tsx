@@ -1,6 +1,5 @@
 "use client";
 import clsx from "clsx";
-import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
