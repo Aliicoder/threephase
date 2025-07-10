@@ -86,7 +86,7 @@ const OnSite = () => {
             )}
           >
             <Image
-              src="/onsite/1.jpg"
+              src="/onsite/1.webp"
               alt=""
               width={770}
               height={353}
@@ -100,7 +100,7 @@ const OnSite = () => {
             )}
           >
             <Image
-              src="/onsite/2.jpg"
+              src="/onsite/2.webp"
               alt=""
               width={770}
               height={353}
@@ -114,7 +114,7 @@ const OnSite = () => {
             )}
           >
             <Image
-              src="/onsite/3.jpg"
+              src="/onsite/3.webp"
               alt=""
               width={770}
               height={353}
@@ -128,7 +128,7 @@ const OnSite = () => {
             )}
           >
             <Image
-              src="/onsite/5.jpg"
+              src="/onsite/4.webp"
               alt=""
               width={770}
               height={353}
@@ -142,7 +142,7 @@ const OnSite = () => {
             )}
           >
             <Image
-              src="/onsite/7.jpg"
+              src="/onsite/5.webp"
               alt=""
               width={770}
               height={353}

@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
                 }
               />
               <Image
-                src="/whyChooseUs/1.jpg"
+                src="/whyChooseUs/1.webp"
                 className=""
                 alt=""
                 width={285}
@@ -156,7 +156,7 @@ const WhyChooseUs = () => {
                 }
               />
               <Image
-                src="/whyChooseUs/2.jpg"
+                src="/whyChooseUs/2.webp"
                 className=""
                 alt=""
                 width={285}
@@ -195,7 +195,7 @@ const WhyChooseUs = () => {
                 }
               />
               <Image
-                src="/whyChooseUs/3.jpg"
+                src="/whyChooseUs/3.webp"
                 className=""
                 alt=""
                 width={285}
