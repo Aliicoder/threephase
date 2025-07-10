@@ -57,10 +57,7 @@ const Hero = () => {
             >
               Contact Us
             </Link>
-            <Link
-              href="/arabic"
-              className="flex items-center font-bold text-white "
-            >
+            <Link href="/" className="flex items-center font-bold text-white ">
               <h1 className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
                 عربي
               </h1>

@@ -1,18 +1,17 @@
-import Hero from "@/components/sections/arabic/Hero";
-import Partners from "@/components/sections/arabic/Partners";
-import Services from "@/components/sections/arabic/Services";
-import Statistics from "@/components/sections/arabic/Statistics";
-import FAQ from "@/components/sections/arabic/FAQ";
-import Footer from "@/components/sections/arabic/Footer";
-import OnSite from "@/components/sections/arabic/OnSite";
-import WhyChooseUs from "@/components/sections/arabic/WhyChooseUs";
+import FAQ from "@/components/sections/FAQ";
+import Footer from "@/components/sections/Footer";
+import Hero from "@/components/sections/Hero";
+import OnSite from "@/components/sections/OnSite";
+import Partners from "@/components/sections/Partners";
+import Services from "@/components/sections/Services";
+import Statistics from "@/components/sections/Statistics";
+import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-
 const Home = () => {
   return (
-    <div className="relative overflow-hidden bg-white" dir="rtl">
+    <div className="relative overflow-hidden">
       <Link
         href="https://wa.me/966553442515"
         className={clsx(
