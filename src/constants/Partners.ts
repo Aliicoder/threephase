@@ -35,7 +35,7 @@ export const Partners = [
     height: 36,
   },
   {
-    image: "/partners/thunder1.png",
+    image: "/partners/thunder.png",
     width: 180,
     height: 36,
     scale: 0.8,

@@ -36,8 +36,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: autoScroll 10s linear infinite;
-  animation-delay: calc((10s / var(--quntity)) * var(--index));
+  animation: autoScroll 20s linear infinite;
+  animation-delay: calc((20s / var(--quntity)) * var(--index));
 }
 .slider .item img {
   object-fit: contain;
