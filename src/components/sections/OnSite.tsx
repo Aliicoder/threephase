@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import AnimatedSvg from "../shared/AnimatedSvg";
+import Frame from "../shared/Frame";
 gsap.registerPlugin(ScrollTrigger);
 const OnSite = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -79,76 +80,11 @@ const OnSite = () => {
             "lg:p-[90px] md:p-[60px]"
           )}
         >
-          <div
-            className={clsx(
-              "shrink-0 basis-5/12 flex justify-center items-center aspect-video overflow-hidden",
-              "max-md:basis-full"
-            )}
-          >
-            <Image
-              src="/onsite/1.webp"
-              alt=""
-              width={770}
-              height={353}
-              className="object-cover w-full h-full"
-            />
-          </div>
-          <div
-            className={clsx(
-              "shrink-0 basis-5/12 flex justify-center items-center aspect-video overflow-hidden",
-              "max-md:basis-full"
-            )}
-          >
-            <Image
-              src="/onsite/2.webp"
-              alt=""
-              width={770}
-              height={353}
-              className="object-cover w-full h-full"
-            />
-          </div>
-          <div
-            className={clsx(
-              "shrink-0 basis-5/12 flex justify-center items-center aspect-video overflow-hidden",
-              "max-md:basis-full"
-            )}
-          >
-            <Image
-              src="/onsite/3.webp"
-              alt=""
-              width={770}
-              height={353}
-              className="object-cover w-full h-full"
-            />
-          </div>
-          <div
-            className={clsx(
-              "shrink-0 basis-5/12 flex justify-center items-center aspect-video overflow-hidden",
-              "max-md:basis-full"
-            )}
-          >
-            <Image
-              src="/onsite/4.webp"
-              alt=""
-              width={770}
-              height={353}
-              className="object-cover w-full h-full"
-            />
-          </div>
-          <div
-            className={clsx(
-              "shrink-0 basis-5/12 flex justify-center items-center aspect-video overflow-hidden",
-              "max-md:basis-full"
-            )}
-          >
-            <Image
-              src="/onsite/5.webp"
-              alt=""
-              width={770}
-              height={353}
-              className="object-cover w-full h-full"
-            />
-          </div>
+          <Frame src="/onsite/1.webp" width={770} height={353} />
+          <Frame src="/onsite/2.webp" width={770} height={353} />
+          <Frame src="/onsite/3.webp" width={770} height={353} />
+          <Frame src="/onsite/4.webp" width={770} height={353} />
+          <Frame src="/onsite/5.webp" width={770} height={353} />
         </div>
       </div>
     </section>

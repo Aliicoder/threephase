@@ -70,7 +70,7 @@ const Partners = () => {
           }
         >
           <div className="list">
-            {PartnersData.map(({ image, width, height }, index) => (
+            {PartnersData.map(({ image, width, height, scale = 1 }, index) => (
               <div
                 style={
                   {
@@ -80,7 +80,17 @@ const Partners = () => {
                 key={index}
                 className="item"
               >
-                <Image src={image} alt="" width={width} height={height} />
+                <Image
+                  className="drop-shadow"
+                  style={{
+                    transform: `scale(${scale})`,
+                    transformOrigin: "center",
+                  }}
+                  src={image}
+                  alt=""
+                  width={width}
+                  height={height}
+                />
               </div>
             ))}
           </div>
