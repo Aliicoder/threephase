@@ -21,6 +21,7 @@ const Frame = ({
       <Image
         src={src}
         alt=""
+        loading="eager"
         width={width}
         height={height}
         className="object-cover w-full h-full"

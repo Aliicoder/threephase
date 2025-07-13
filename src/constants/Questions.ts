@@ -13,7 +13,7 @@ export const en = [
     question:
       "Do I need a special permit to install a generator at my facility?",
     answer:
-      "Depending on size and location, permits may be required. We handle the paperwork for you.",
+      "That may require a permit depending on the size and location, and we issue permits whenever possible.",
   },
   {
     question: "Do you offer complete generator installation services?",
@@ -35,7 +35,7 @@ export const ar = [
   {
     question: "هل أحتاج إلى تصريح خاص لتركيب مولد كهربائي في منشأتي؟",
     answer:
-      "قد يتطلب ذلك تصريحًا حسب الحجم والموقع، ونحن ننجز الإجراءات نيابة عنك.",
+      "قد يتطلب ذلك تصريحًا حسب الحجم والموقع، ونقوم بإصدار التصاريح عند الإمكان.",
   },
   {
     question: "هل تقدمون خدمات تركيب كاملة للمولدات؟",

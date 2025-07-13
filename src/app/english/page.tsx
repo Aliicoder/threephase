@@ -5,6 +5,7 @@ import OnSite from "@/components/sections/OnSite";
 import Partners from "@/components/sections/Partners";
 import Services from "@/components/sections/Services";
 import Statistics from "@/components/sections/Statistics";
+import Vision from "@/components/sections/Vision";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import clsx from "clsx";
 import Image from "next/image";
@@ -22,7 +23,9 @@ const Home = () => {
         <Image src="/whatsapp.svg" alt="" width={40} height={40} />
       </Link>
       <Hero />
+
       <Statistics />
+      <Vision />
       <Partners />
       <Services />
       <OnSite />

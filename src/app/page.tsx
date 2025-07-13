@@ -9,6 +9,7 @@ import WhyChooseUs from "@/components/sections/arabic/WhyChooseUs";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
+import Vision from "@/components/sections/arabic/Vision";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       </Link>
       <Hero />
       <Statistics />
+      <Vision />
       <Partners />
       <Services />
       <OnSite />

@@ -127,8 +127,8 @@ const WhyChooseUs = () => {
               </div>
               <p className="max-w-[450px]">
                 We have years of experience in the electrical power sector,
-                having successfully completed hundreds of projects for clients
-                across various industrial
+                having successfully completed projects for clients across
+                various industrial
               </p>
             </div>
             <div className={clsx("relative aspect-[1/1] h-full")}>
