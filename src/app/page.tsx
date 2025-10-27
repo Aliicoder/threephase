@@ -1,15 +1,15 @@
-import Hero from "@/components/sections/arabic/Hero";
-import Partners from "@/components/sections/arabic/Partners";
-import Services from "@/components/sections/arabic/Services";
-import Statistics from "@/components/sections/arabic/Statistics";
-import FAQ from "@/components/sections/arabic/FAQ";
-import Footer from "@/components/sections/arabic/Footer";
-import OnSite from "@/components/sections/arabic/OnSite";
-import WhyChooseUs from "@/components/sections/arabic/WhyChooseUs";
+import Hero from "@/app/(components)/Hero";
+import Partners from "@/app/(components)/Partners";
+import Services from "@/app/(components)/Services";
+import Statistics from "@/app/(components)/Statistics";
+import FAQ from "@/app/(components)/FAQ";
+import Footer from "@/app/(components)/Footer";
+import OnSite from "@/app/(components)/OnSite";
+import WhyChooseUs from "@/app/(components)/WhyChooseUs";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import Vision from "@/components/sections/arabic/Vision";
+import Vision from "@/app/(components)/Vision";
 
 const Home = () => {
   return (

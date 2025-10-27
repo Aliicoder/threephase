@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import AnimatedSvg from "../shared/AnimatedSvg";
+import AnimatedSvg from "../../../components/shared/AnimatedSvg";
 
 const Vision = () => {
   return (

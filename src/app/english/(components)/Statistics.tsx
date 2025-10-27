@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import Stat from "../shared/Stat";
-import AnimatedSvg from "../shared/AnimatedSvg";
+import Stat from "../../../components/shared/Stat";
+import AnimatedSvg from "../../../components/shared/AnimatedSvg";
 const Statistics = () => {
   return (
     <section className="relative z-10 bg-[#BACA5B]">

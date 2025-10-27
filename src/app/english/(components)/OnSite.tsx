@@ -3,8 +3,8 @@ import clsx from "clsx";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import AnimatedSvg from "../shared/AnimatedSvg";
-import Frame from "../shared/Frame";
+import AnimatedSvg from "../../../components/shared/AnimatedSvg";
+import Frame from "../../../components/shared/Frame";
 gsap.registerPlugin(ScrollTrigger);
 const OnSite = () => {
   const sliderRef = useRef<HTMLDivElement>(null);

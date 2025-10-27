@@ -2,7 +2,7 @@
 import Image from "next/image";
 import clsx from "clsx";
 import { Partners as PartnersData } from "@/constants/Partners";
-import AnimatedSvg from "../shared/AnimatedSvg";
+import AnimatedSvg from "../../../components/shared/AnimatedSvg";
 
 const Partners = () => {
   return (

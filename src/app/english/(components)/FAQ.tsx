@@ -3,7 +3,7 @@ import clsx from "clsx";
 import { Plus, X } from "lucide-react";
 import { en as Questions } from "@/constants/Questions";
 import { useState } from "react";
-import AnimatedSvg from "../shared/AnimatedSvg";
+import AnimatedSvg from "../../../components/shared/AnimatedSvg";
 const FAQ = () => {
   const [active, setActive] = useState(-1);
   return (

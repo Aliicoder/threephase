@@ -1,7 +1,7 @@
 import Image from "next/image";
 import clsx from "clsx";
-import AnimatedSvg from "../shared/AnimatedSvg";
-import Counter from "../shared/Counter";
+import AnimatedSvg from "../../../components/shared/AnimatedSvg";
+import Counter from "../../../components/shared/Counter";
 
 const WhyChooseUs = () => {
   return (

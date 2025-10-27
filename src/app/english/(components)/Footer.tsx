@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
-import AnimatedSvg from "../shared/AnimatedSvg";
+import AnimatedSvg from "../../../components/shared/AnimatedSvg";
 import Link from "next/link";
 const Footer = () => {
   return (
