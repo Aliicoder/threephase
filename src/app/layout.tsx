@@ -21,12 +21,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ThreePhase - film electricity solutions",
+  title: "ThreePhase - حلول كهرباء لمواقع التصوير",
   description:
-    "ThreePhase delivers specialized three-phase electrical solutions for film sets, production studios, and entertainment venues. Our expert team provides reliable power distribution, temporary electrical systems, and energy management for seamless film production. Trusted by the entertainment industry for safe, efficient, and compliant power solutions.",
-  keywords: `film electricity, electrical solutions, electricity solutions near me , 
-  three phase electrical solutions Riyadh, movie set power, production studio electrical,
-   temporary power solutions, film set energy, entertainment power systems`,
+    "تقدم ThreePhase حلولاً كهربائية متكاملة ثلاثية الطور لمواقع التصوير السينمائي، الاستوديوهات الإنتاجية، والمنشآت الترفيهية. نوفر أنظمة توزيع طاقة آمنة، حلول كهرباء مؤقتة، وإدارة طاقة فعالة لضمان سير عمليات الإنتاج دون انقطاع. فريقنا الخبير يضمن توفير حلول طاقة متوافقة مع المعايير العالمية لقطاع الترفيه.",
+  keywords:
+    "كهرباء الأفلام, كهرباء ثلاثية الطور, توزيع كهرباء مواقع التصوير, كهرباء الاستوديوهات, حلول طاقة مؤقتة, أنظمة الطاقة للترفيه, كهرباء مواقع الإنتاج السينمائي",
 };
 export default function RootLayout({
   children,
