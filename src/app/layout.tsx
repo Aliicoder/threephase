@@ -21,7 +21,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ThreePhase - حلول كهرباء لمواقع التصوير",
+  title: {
+    template: "%s | ThreePhase",
+    default: " حلول الكهرباء لمواقع التصوير والإنتاج",
+  },
   description:
     "تقدم ThreePhase حلولاً كهربائية متكاملة ثلاثية الطور لمواقع التصوير السينمائي، الاستوديوهات الإنتاجية، والمنشآت الترفيهية. نوفر أنظمة توزيع طاقة آمنة، حلول كهرباء مؤقتة، وإدارة طاقة فعالة لضمان سير عمليات الإنتاج دون انقطاع. فريقنا الخبير يضمن توفير حلول طاقة متوافقة مع المعايير العالمية لقطاع الترفيه.",
   keywords:
@@ -35,7 +38,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-P2LRXQGL5D"
           strategy="afterInteractive"
@@ -48,6 +50,24 @@ export default function RootLayout({
             gtag('config', 'G-P2LRXQGL5D');
           `}
         </Script>
+        <Script
+          id="schema-localbusiness"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+            {
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "ThreePhase",
+              "description": "Specialized three-phase electricity solutions for film sets, production studios, and entertainment venues.",
+              "areaServed": ["Riyadh", "Saudi Arabia"],
+              "serviceType": "Film Electricity",
+              "url": "https://threephase.co",
+              "logo": "/logo.png"
+            }
+          `,
+          }}
+        />
       </head>
       <ReactLenis root>
         <body
