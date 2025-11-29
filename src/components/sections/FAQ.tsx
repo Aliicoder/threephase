@@ -32,7 +32,7 @@ const FAQ = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">الأسئلة الشائعة</h1>
+          <h4 className="text-4xl max-md:text-xl">الأسئلة الشائعة</h4>
         </div>
         <div className="pt-[10px] flex flex-col">
           {Questions.map((item, index) => (
@@ -43,9 +43,9 @@ const FAQ = () => {
               )}
             >
               <div key={index} className="gap-4 py-4 flex justify-between">
-                <h1 className={clsx("text-xl font-bold", "max-md:text-sm")}>
+                <h3 className={clsx("text-xl font-bold", "max-md:text-sm")}>
                   {item.question}
-                </h1>
+                </h3>
                 {active === index ? (
                   <X
                     className="w-[24px] h-[24px] max-md:w-[20px] max-md:h-[20px]"

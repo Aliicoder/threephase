@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">Why Choose Us ?</h1>
+          <h4 className="text-4xl max-md:text-xl">Why Choose Us ?</h4>
         </div>
         <div className="flex flex-col gap-[90px]">
           <div
@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
               className={clsx("gap-[50px] flex flex-col", "max-md:gap-[20px]")}
             >
               <div className="flex justify-center">
-                <h1 className="relative text-4xl">
+                <h4 className="relative text-4xl">
                   <div
                     className={clsx(
                       `absolute z-[-1]
@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
                     <Counter duration={0} count={1} />
                   </div>
                   Unmatched <br /> quality
-                </h1>
+                </h4>
               </div>
               <p className="max-w-[450px]">
                 All our equipment and generators are certified by top global
@@ -111,7 +111,7 @@ const WhyChooseUs = () => {
               className={clsx("gap-[50px] flex flex-col", "max-md:gap-[20px]")}
             >
               <div className="flex justify-center">
-                <h1 className="relative text-4xl">
+                <h4 className="relative text-4xl">
                   <div
                     className={clsx(
                       `absolute z-[-1]
@@ -123,7 +123,7 @@ const WhyChooseUs = () => {
                     <Counter duration={0} count={2} />
                   </div>
                   Years of Proven <br /> Experience
-                </h1>
+                </h4>
               </div>
               <p className="max-w-[450px]">
                 We have years of experience in the electrical power sector,
@@ -205,7 +205,7 @@ const WhyChooseUs = () => {
               className={clsx("gap-[50px] flex flex-col", "max-md:gap-[20px]")}
             >
               <div className="flex justify-center">
-                <h1 className="relative text-4xl">
+                <h4 className="relative text-4xl">
                   <div
                     className={clsx(
                       `absolute z-[-1]
@@ -218,7 +218,7 @@ const WhyChooseUs = () => {
                   </div>
                   24/7 Technical
                   <br /> Support
-                </h1>
+                </h4>
               </div>
               <p className="max-w-[450px]">
                 We&apos;re always by your side. Our technical support team is

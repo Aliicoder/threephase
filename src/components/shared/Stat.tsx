@@ -28,10 +28,10 @@ const Stat = ({ count, title }: { count: number; title: string }) => {
 
   return (
     <div ref={textRef}>
-      <h1 className={clsx("text-3xl", "max-md:text-xl")}>
+      <h6 className={clsx("text-3xl", "max-md:text-xl")}>
         {started ? <CountUp end={count} duration={3} /> : count}
         <span className={clsx("ml-1 text-xl", "max-md:text-lg")}>+</span>
-      </h1>
+      </h6>
       <AnimatedText className="text-xl max-md:text-sm" text={title} />
     </div>
   );

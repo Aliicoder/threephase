@@ -28,7 +28,7 @@ const Services = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">الخدمات</h1>
+          <h4 className="text-4xl max-md:text-xl">الخدمات</h4>
         </div>
         <div className={clsx("flex ", "max-md:flex-col max-md:gap-[90px]")}>
           <div className="basis-4/12 flex flex-col items-center">
@@ -48,14 +48,14 @@ const Services = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <h1
+            <h2
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
                 "max-md:text-2xl"
               )}
             >
               تأجير مولدات
-            </h1>
+            </h2>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               وفّر لك مولد كهربائي مع فني تشغيل مدرّب ضمن عقود مرنة، مثالية
               للفعاليات
@@ -79,14 +79,14 @@ const Services = () => {
               />
             </svg>
 
-            <h1
+            <h2
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
                 "max-md:text-2xl"
               )}
             >
               حلول للطوارئ
-            </h1>
+            </h2>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               نخدمك في أوقات انقطاع التيار المفاجئ استجابة خلال 1–2 ساعات
             </p>
@@ -108,14 +108,14 @@ const Services = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <h1
+            <h2
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
                 "max-md:text-2xl"
               )}
             >
               مولدات متنقلة
-            </h1>
+            </h2>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               مولدات يمكن نقلها وتشغيلها بسهولة في عدة مواقع، مثالية للمشاريع
               المتنقلة

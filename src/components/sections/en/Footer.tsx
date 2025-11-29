@@ -77,15 +77,15 @@ const Footer = () => {
             <div className="flex flex-col gap-[20px]">
               <div className="flex gap-4 items-center">
                 <Phone className="w-[20px] h-[20px]" />
-                <h1>+966 55 344 2515</h1>
+                <p>+966 55 344 2515</p>
               </div>
               <div className="flex gap-4 items-center">
                 <Mail className="w-[20px] h-[20px]" />
-                <h1>contact@threephase.co</h1>
+                <p>contact@threephase.co</p>
               </div>
               <div className="flex gap-4 items-center">
                 <MapPin className="w-[20px] h-[20px]" />
-                <h1>Riyadh , Saudi Arabia</h1>
+                <p>Riyadh , Saudi Arabia</p>
               </div>
             </div>
           </div>

@@ -70,7 +70,7 @@ const OnSite = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">في الموقع</h1>
+          <h4 className="text-4xl max-md:text-xl">في الموقع</h4>
         </div>
         <div
           id="slider"

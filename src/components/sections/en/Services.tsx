@@ -28,7 +28,7 @@ const Services = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">Services</h1>
+          <h4 className="text-4xl max-md:text-xl">Services</h4>
         </div>
         <div className={clsx("flex ", "max-md:flex-col max-md:gap-[90px]")}>
           <div className="basis-4/12 flex flex-col items-center">
@@ -48,14 +48,14 @@ const Services = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <h1
+            <h2
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
                 "max-md:text-2xl"
               )}
             >
               Mobile Generators
-            </h1>
+            </h2>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               Generators that can be easily transported and operated at multiple
               locations
@@ -79,14 +79,14 @@ const Services = () => {
               />
             </svg>
 
-            <h1
+            <h2
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
                 "max-md:text-2xl"
               )}
             >
               Emergency Solutions
-            </h1>
+            </h2>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               We serve you during unexpected power Response time: within 1–2
               hours
@@ -109,14 +109,14 @@ const Services = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <h1
+            <h2
               className={clsx(
                 "pt-[20px] pb-[16px] text-3xl text-center",
                 "max-md:text-2xl"
               )}
             >
               Generator Rental
-            </h1>
+            </h2>
             <p className={clsx("max-w-[300px] text-center", "max-md:text-sm")}>
               We provide you with a power generator and a trained operator under
               flexible contracts

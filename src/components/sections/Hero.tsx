@@ -38,7 +38,7 @@ const Hero = () => {
               "max-md:w-[280px] max-md:text-3xl"
             )}
           >
-            <h1>لتستمر أعمالك بلا توقف</h1>
+            <h5>لتستمر أعمالك بلا توقف</h5>
           </div>
           <div
             className={clsx(
@@ -69,11 +69,11 @@ const Hero = () => {
                 "hover:scale-95 transition-all duration-300"
               )}
             >
-              <h1 className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
+              <div className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
                 English
-              </h1>
+              </div>
               <div className="flex items-center justify-center px-[10px] size-full bg-[#BACA5B]">
-                <FaArrowRight className="rotate-180  " />
+                <FaArrowRight className="rotate-180" />
               </div>
             </Link>
           </div>

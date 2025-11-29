@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">لماذا تختارنا؟ </h1>
+          <h4 className="text-4xl max-md:text-xl">لماذا تختارنا؟ </h4>
         </div>
         <div className="flex flex-col gap-[90px]">
           <div
@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
               className={clsx("gap-[50px] flex flex-col", "max-md:gap-[20px]")}
             >
               <div className="flex justify-center">
-                <h1 className="relative text-4xl">
+                <h4 className="relative text-4xl">
                   <div
                     className={clsx(
                       `absolute z-[-1]
@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
                     <Counter duration={0} count={1} />
                   </div>
                   جودة لا <br /> تُضاهى
-                </h1>
+                </h4>
               </div>
               <p className="max-w-[450px]">
                 جميع معداتنا ومولداتنا معتمدة من أفضل الشركات العالمية، ونخضع
@@ -111,7 +111,7 @@ const WhyChooseUs = () => {
               className={clsx("gap-[50px] flex flex-col", "max-md:gap-[20px]")}
             >
               <div className="flex justify-center">
-                <h1 className="relative text-4xl">
+                <h4 className="relative text-4xl">
                   <div
                     className={clsx(
                       `absolute z-[-1]
@@ -124,7 +124,7 @@ const WhyChooseUs = () => {
                   </div>
                   خبرة تمتد
                   <br /> لسنوات{" "}
-                </h1>
+                </h4>
               </div>
               <p className="max-w-[450px]">
                 نتمتع بخبرة سنوات في مجال الطاقة الكهربائية، حيث نفذنا العديد من
@@ -205,7 +205,7 @@ const WhyChooseUs = () => {
               className={clsx("gap-[50px] flex flex-col", "max-md:gap-[20px]")}
             >
               <div className="flex justify-center">
-                <h1 className="relative text-4xl">
+                <h4 className="relative text-4xl">
                   <div
                     className={clsx(
                       `absolute z-[-1]
@@ -218,7 +218,7 @@ const WhyChooseUs = () => {
                   </div>
                   دعم فني على <br />
                   مدار الساعة
-                </h1>
+                </h4>
               </div>
               <p className="max-w-[450px]">
                 نحن إلى جانبك دائمًا. فريق الدعم الفني لدينا متاح 24/7 للاستجابة

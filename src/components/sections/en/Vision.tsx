@@ -31,7 +31,7 @@ const Vision = () => {
           <h1 className="text-4xl max-md:text-xl">Our Vision</h1>
         </div>
         <div className="flex justify-center">
-          <p className={clsx("max-w-[700px] text-center", "max-md:text-sm")}>
+          <h3 className={clsx("max-w-[700px] text-center", "max-md:text-sm")}>
             We aspire to be the leading and most influential company in
             providing integrated electrical solutions that support the film,
             media, and production industry across the Kingdom. We are committed
@@ -44,7 +44,7 @@ const Vision = () => {
             content creators in producing their artistic and creative work with
             the highest levels of quality and professionalism—without any
             interruptions or delays.
-          </p>
+          </h3>
         </div>
       </div>
     </section>

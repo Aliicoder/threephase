@@ -36,7 +36,7 @@ const Partners = () => {
               </>
             }
           />
-          <div className="text-4xl max-md:text-xl">شركاؤنا</div>
+          <h4 className="text-4xl max-md:text-xl">شركاؤنا</h4>
         </div>
         <div
           className="slider mb-[20px]"
@@ -48,9 +48,9 @@ const Partners = () => {
             } as React.CSSProperties
           }
         >
-          <div className="list">
+          <ul className="list">
             {PartnersData.map(({ image, width, height, scale = 1 }, index) => (
-              <div
+              <li
                 style={
                   {
                     "--index": index,
@@ -70,9 +70,9 @@ const Partners = () => {
                   width={width}
                   height={height}
                 />
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>
