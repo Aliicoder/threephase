@@ -63,7 +63,7 @@ const Hero = () => {
               تواصل معنا{" "}
             </Link>
             <Link
-              href="/english"
+              href="/en"
               className={clsx(
                 "flex items-center font-bold text-white ",
                 "hover:scale-95 transition-all duration-300"
