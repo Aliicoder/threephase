@@ -32,7 +32,7 @@ const FAQ = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">FAQ</h1>
+          <h4 className="text-4xl max-md:text-xl">FAQ</h4>
         </div>
         <div className="pt-[10px] flex flex-col">
           {Questions.map((item, index) => (

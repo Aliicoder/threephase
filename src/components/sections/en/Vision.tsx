@@ -28,7 +28,7 @@ const Vision = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">Our Vision</h1>
+          <h4 className="text-4xl max-md:text-xl">Our Vision</h4>
         </div>
         <div className="flex justify-center">
           <h3 className={clsx("max-w-[700px] text-center", "max-md:text-sm")}>

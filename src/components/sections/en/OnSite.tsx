@@ -68,7 +68,7 @@ const OnSite = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">On Site</h1>
+          <h4 className="text-4xl max-md:text-xl">On Site</h4>
         </div>
         <div
           id="slider"

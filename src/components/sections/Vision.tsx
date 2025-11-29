@@ -28,7 +28,7 @@ const Services = () => {
               </>
             }
           />
-          <h1 className="text-4xl max-md:text-xl">رؤيتنا</h1>
+          <h4 className="text-4xl max-md:text-xl">رؤيتنا</h4>
         </div>
 
         <div className="flex justify-center">
