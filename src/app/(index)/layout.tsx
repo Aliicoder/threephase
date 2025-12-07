@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { ReactLenis } from "@/lib/lenis";
 import Script from "next/script";
 
@@ -33,14 +33,21 @@ export const metadata: Metadata = {
    ثلاثية الطور, توزيع كهرباء مواقع التصوير, كهرباء 
   الاستوديوهات, حلول طاقة مؤقتة
   , أنظمة الطاقة للترفيه, كهرباء مواقع الإنتاج السينمائي`,
+  alternates: {
+    canonical: "https://threephase.co",
+    languages: {
+      ar: "https://threephase.co",
+      en: "https://threephase.co/en",
+    },
+  },
 };
-export default function RootLayout({
+export default function ArabicLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ar">
       <head>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-P2LRXQGL5D"
@@ -73,13 +80,11 @@ export default function RootLayout({
           }}
         />
       </head>
-      <ReactLenis root>
-        <body
-          className={`${cairo.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-          {children}
-        </body>
-      </ReactLenis>
+      <body
+        className={`${cairo.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <ReactLenis root>{children}</ReactLenis>
+      </body>
     </html>
   );
 }
