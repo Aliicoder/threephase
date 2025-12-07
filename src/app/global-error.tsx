@@ -1,5 +1,5 @@
 "use client";
-
+import "./globals.css";
 import clsx from "clsx";
 
 const GlobalError = ({ error }: { error: Error }) => {
