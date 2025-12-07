@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import { Geist, Geist_Mono } from "next/font/google";
-import "../globals.css";
 import { ReactLenis } from "@/lib/lenis";
 import Script from "next/script";
 
