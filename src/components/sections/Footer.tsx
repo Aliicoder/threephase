@@ -65,7 +65,7 @@ const Footer = () => {
               هل ترغب في شراكة أو تعاون؟
             </p>
             <Link
-              href="mailto:contact@threephase.co"
+              href="mailto:info@threephase.co"
               className={clsx(
                 "px-6 py-2 font-bold w-fit bg-[#0000C4] text-white",
                 "max-md:text-sm animate-pulse cursor-pointer"
@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
               <div className="flex gap-4 items-center">
                 <Mail className="w-[20px] h-[20px]" />
-                <p>contact@threephase.co</p>
+                <p>info@threephase.co</p>
               </div>
               <div className="flex gap-4 items-center">
                 <MapPin className="w-[20px] h-[20px]" />
