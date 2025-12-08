@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
   <url>
     <loc>https://threephase.co/</loc>
-    
+
     <xhtml:link rel="alternate" hreflang="ar" href="https://threephase.co/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://threephase.co/en" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://threephase.co/" />
-    
+
     <lastmod>2025-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://threephase.co/en</loc>
-    
+
     <xhtml:link rel="alternate" hreflang="ar" href="https://threephase.co/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://threephase.co/en" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://threephase.co/" />
