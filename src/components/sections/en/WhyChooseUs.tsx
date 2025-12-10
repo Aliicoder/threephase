@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
     <section className="relative z-10 font-cairo bg-white">
       <div
         className={clsx(
-          "mx-auto space-y-[90px] py-[30px] px-[20px] container font-bold"
+          "mx-auto space-y-[90px] pt-[30px] pb-[90px] px-[20px] container font-bold"
         )}
       >
         <div className="gap-[10px] flex items-center  ">

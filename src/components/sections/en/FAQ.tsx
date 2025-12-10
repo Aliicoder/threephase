@@ -8,7 +8,7 @@ const FAQ = () => {
   const [active, setActive] = useState(-1);
   return (
     <section className="relative z-10 font-cairo bg-white">
-      <div className="mx-auto py-[30px] px-[20px] container font-bold ">
+      <div className="mx-auto py-[30px] pt-[60px] pb-[90px] px-[20px] container font-bold ">
         <div className="gap-[10px] flex items-center  ">
           <AnimatedSvg
             className="max-md:w-[24px] max-md:h-[19px]"
@@ -42,24 +42,20 @@ const FAQ = () => {
                 index != Questions.length - 1 && "border-b border-[#BACA5B]"
               )}
             >
-              <div key={index} className="gap-4 py-4 flex justify-between">
-                <h3 className={clsx("text-xl font-bold", "max-md:text-sm")}>
+              <div
+                onClick={() =>
+                  setActive((prev) => (prev === index ? -1 : index))
+                }
+                key={index}
+                className="gap-4 py-4 flex justify-between cursor-pointer"
+              >
+                <p className={clsx("text-xl font-bold", "max-md:text-sm")}>
                   {item.question}
-                </h3>
+                </p>
                 {active === index ? (
-                  <X
-                    className="w-[24px] h-[24px] max-md:w-[20px] max-md:h-[20px]"
-                    onClick={() =>
-                      setActive((prev) => (prev === index ? -1 : index))
-                    }
-                  />
+                  <X className="w-[24px] h-[24px] max-md:w-[20px] max-md:h-[20px]" />
                 ) : (
-                  <Plus
-                    className="w-[24px] h-[24px] max-md:w-[20px] max-md:h-[20px]"
-                    onClick={() =>
-                      setActive((prev) => (prev === index ? -1 : index))
-                    }
-                  />
+                  <Plus className="w-[24px] h-[24px] max-md:w-[20px] max-md:h-[20px]" />
                 )}
               </div>
               {active === index && (

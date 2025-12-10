@@ -4,7 +4,7 @@ import AnimatedSvg from "../../../components/shared/AnimatedSvg";
 const Vision = () => {
   return (
     <section className="relative z-10 font-cairo bg-white">
-      <div className="mx-auto gap-[30px] py-[30px] px-[20px] container flex flex-col font-bold">
+      <div className="mx-auto gap-[30px] pt-[60px] pb-[90px] px-[20px] container flex flex-col font-bold">
         <div className="gap-[10px] flex items-center  ">
           <AnimatedSvg
             className="max-md:w-[24px] max-md:h-[19px]"

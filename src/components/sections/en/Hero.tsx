@@ -32,14 +32,14 @@ const Hero = () => {
             "max-md:mb-[0px]"
           )}
         >
-          <h5
+          <p
             className={clsx(
               "w-[770px] text-6xl font-bold text-white",
               "max-md:w-[280px] max-md:text-3xl"
             )}
           >
             To keep your business running without interruption
-          </h5>
+          </p>
           <h1
             className={clsx(
               "w-[770px] text-xl font-bold leading-[1.2] line-clamp-3 tracking-wide text-white",
@@ -62,9 +62,9 @@ const Hero = () => {
               Contact Us
             </Link>
             <Link href="/" className="flex items-center font-bold text-white ">
-              <div className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
+              <p className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
                 عربي
-              </div>
+              </p>
               <div className="flex items-center justify-center px-[10px] size-full bg-[#BACA5B]">
                 <FaArrowRight />
               </div>

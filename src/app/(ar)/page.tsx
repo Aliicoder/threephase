@@ -11,7 +11,7 @@ import Whatsapp from "@/components/buttons/Whatsapp";
 
 const Home = () => {
   return (
-    <main className="relative overflow-hidden bg-white" dir="rtl">
+    <main className="relative overflow-hidden transition-all" dir="rtl">
       <Whatsapp />
       <Hero />
       <Statistics />
