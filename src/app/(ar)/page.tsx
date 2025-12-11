@@ -7,7 +7,7 @@ import Footer from "@/components/sections/Footer";
 import OnSite from "@/components/sections/OnSite";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Vision from "@/components/sections/Vision";
-import Whatsapp from "@/components/buttons/Whatsapp";
+import WhatsappBtn from "@/components/buttons/Whatsapp";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       className="relative overflow-hidden transition-all bg-white"
       dir="rtl"
     >
-      <Whatsapp />
+      <WhatsappBtn />
       <Hero />
       <Statistics />
       <Vision />

@@ -7,11 +7,11 @@ import Services from "@/components/sections/en/Services";
 import Statistics from "@/components/sections/en/Statistics";
 import Vision from "@/components/sections/en/Vision";
 import WhyChooseUs from "@/components/sections/en/WhyChooseUs";
-import Whatsapp from "@/components/buttons/Whatsapp";
+import WhatsappBtn from "@/components/buttons/Whatsapp";
 const Home = () => {
   return (
     <main className="relative overflow-hidden transition-all bg-white">
-      <Whatsapp />
+      <WhatsappBtn />
       <Hero />
       <Statistics />
       <Vision />
