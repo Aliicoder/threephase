@@ -12,7 +12,7 @@ const Whatsapp = () => {
         "max-md:fixed max-md:block"
       )}
     >
-      <Image src="/whatsapp.svg" alt="" width={40} height={40} />
+      <Image src="/assets/icons/whatsapp.svg" alt="" width={40} height={40} />
     </Link>
   );
 };

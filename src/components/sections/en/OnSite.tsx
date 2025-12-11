@@ -79,11 +79,11 @@ const OnSite = () => {
             "lg:p-[90px] md:p-[60px]"
           )}
         >
-          <Frame src="/onsite/1.webp" width={770} height={353} />
-          <Frame src="/onsite/2.webp" width={770} height={353} />
-          <Frame src="/onsite/3.webp" width={770} height={353} />
-          <Frame src="/onsite/4.webp" width={770} height={353} />
-          <Frame src="/onsite/5.webp" width={770} height={353} />
+          <Frame src="/assets/onsite/1.webp" width={770} height={353} />
+          <Frame src="/assets/onsite/2.webp" width={770} height={353} />
+          <Frame src="/assets/onsite/3.webp" width={770} height={353} />
+          <Frame src="/assets/onsite/4.webp" width={770} height={353} />
+          <Frame src="/assets/onsite/5.webp" width={770} height={353} />
         </div>
       </div>
     </section>

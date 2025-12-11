@@ -51,7 +51,7 @@ export default function ArabicLayout({
         <link
           rel="preload"
           as="image"
-          href="/imgs/hero-bg-reverse.webp"
+          href="/assets/hero/hero-bg-reverse.webp"
           type="image/webp"
           fetchPriority="high"
         />

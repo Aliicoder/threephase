@@ -46,7 +46,7 @@ export default function EnglishLayout({
         <link
           rel="preload"
           as="image"
-          href="/imgs/hero-bg.webp"
+          href="/assets/hero/hero-bg.webp"
           type="image/webp"
           fetchPriority="high"
         />
