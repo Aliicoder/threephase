@@ -24,6 +24,7 @@ const Hero = () => {
             height={58}
             src="/logo.svg"
             alt="threephase logo"
+            loading="eager"
           />
         </div>
         <div

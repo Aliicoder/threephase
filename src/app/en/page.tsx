@@ -10,7 +10,7 @@ import WhyChooseUs from "@/components/sections/en/WhyChooseUs";
 import Whatsapp from "@/components/buttons/Whatsapp";
 const Home = () => {
   return (
-    <main className="relative overflow-hidden transition-all">
+    <main className="relative overflow-hidden transition-all bg-white">
       <Whatsapp />
       <Hero />
       <Statistics />

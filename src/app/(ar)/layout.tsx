@@ -48,6 +48,13 @@ export default function ArabicLayout({
   return (
     <html lang="ar">
       <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/imgs/hero-bg-reverse.webp"
+          type="image/webp"
+          fetchPriority="high"
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-P2LRXQGL5D"
           strategy="afterInteractive"
@@ -65,17 +72,17 @@ export default function ArabicLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `
-            {
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "ThreePhase",
-              "description": "Specialized three-phase electricity solutions for film sets, production studios, and entertainment venues.",
-              "areaServed": ["Riyadh", "Saudi Arabia"],
-              "serviceType": "Film Electricity",
-              "url": "https://threephase.co",
-              "logo": "/logo.png"
-            }
-          `,
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "LocalBusiness",
+                    "name": "ThreePhase",
+                    "description": "حلول كهربائية متخصصة ثلاثية الطور لمواقع التصوير السينمائي، استوديوهات الإنتاج، والمواقع الترفيهية.",
+                    "areaServed": ["الرياض", "المملكة العربية السعودية"],
+                    "serviceType": "خدمات الكهرباء لمواقع التصوير",
+                    "url": "https://threephase.co",
+                    "logo": "/logo.svg"
+                  }
+                `,
           }}
         />
       </head>
