@@ -71,7 +71,7 @@ export const Partners = [
     height: 28,
   },
   {
-    image: "/partners/dna.webp",
+    image: "/assets/partners/dna.webp",
     scale: 0.9,
     width: 140,
     height: 28,
