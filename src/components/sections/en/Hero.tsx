@@ -62,7 +62,13 @@ const Hero = () => {
             >
               Contact Us
             </Link>
-            <Link href="/" className="flex items-center font-bold text-white ">
+            <Link
+              href="/"
+              className={clsx(
+                "flex items-center font-bold text-white ",
+                "hover:scale-95 transition-all duration-300"
+              )}
+            >
               <p className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
                 عربي
               </p>
