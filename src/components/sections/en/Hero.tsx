@@ -53,7 +53,7 @@ const Hero = () => {
           </h1>
           <div className="flex flex-wrap gap-[20px]">
             <Link
-              href="mailto:contact@threephase.co"
+              href="mailto:info@threephase.co"
               className={clsx(
                 "px-6 py-2 flex items-center font-bold bg-[#0000C4] text-white",
                 "max-md:text-sm",
