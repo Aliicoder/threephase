@@ -57,8 +57,8 @@ const Hero = () => {
               href="mailto:info@threephase.co"
               className={clsx(
                 "px-6 py-2 flex items-center font-bold bg-[#0000C4] text-white ",
-                "max-md:text-sm",
-                "hover:scale-95 transition-all duration-300"
+                "max-md:text-sm animate-pulse cursor-pointer",
+                "hover:animate-none hover:scale-95 transition-all duration-500"
               )}
             >
               تواصل معنا{" "}
@@ -70,7 +70,13 @@ const Hero = () => {
                 "hover:scale-95 transition-all duration-300"
               )}
             >
-              <p className={clsx("px-6 py-3 bg-[#0000C4]", "max-md:text-sm")}>
+              <p
+                className={clsx(
+                  "px-6 py-3 bg-[#0000C4]",
+                  "max-md:text-sm",
+                  "t"
+                )}
+              >
                 English
               </p>
               <div className="flex items-center justify-center px-[10px] size-full bg-[#BACA5B]">
