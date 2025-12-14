@@ -84,7 +84,7 @@ export default function EnglishLayout({
       <body
         className={`${cairo.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ReactLenis root>{children}</ReactLenis>
+        {children}
       </body>
     </html>
   );

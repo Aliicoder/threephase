@@ -12,7 +12,7 @@ import WhatsappBtn from "@/components/buttons/Whatsapp";
 const Home = () => {
   return (
     <main
-      className="relative overflow-hidden transition-all bg-white"
+      className="relative overflow-hidden transition-all bg-white scroll-smooth"
       dir="rtl"
     >
       <WhatsappBtn />
