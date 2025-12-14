@@ -69,7 +69,8 @@ const Footer = () => {
               href="mailto:info@threephase.co"
               className={clsx(
                 "px-6 py-2 font-bold w-fit bg-[#0000C4] text-white",
-                "max-md:text-sm animate-pulse cursor-pointer"
+                "max-md:text-sm animate-pulse cursor-pointer",
+                "hover:animate-none hover:scale-95 transition-all duration-300"
               )}
             >
               Contact Us
